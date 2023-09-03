@@ -1,0 +1,373 @@
+06. Section Overview
+https://coggle.it/diagram/XE3ZoVj-rtA5hcxj/t/advanced-javascript
+
+07. JavaScript Engine
+https://en.wikipedia.org/wiki/List_of_ECMAScript_engines
+https://en.wikipedia.org/wiki/SpiderMonkey
+https://en.wikipedia.org/wiki/V8_(JavaScript_engine)
+
+08. Exercise: JavaScript Engine
+https://en.wikipedia.org/wiki/Brendan_Eich
+
+09. Inside the Engine
+https://astexplorer.net/
+
+12. Babel + TypeScript
+https://babeljs.io/
+https://www.typescriptlang.org/
+
+13. Inside the V8 Engine
+https://en.wikipedia.org/wiki/Just-in-time_compilation
+
+15. Writing Optimized Code
+https://richardartoul.github.io/jekyll/update/2015/04/26/hidden-classes.html
+https://github.com/petkaantonov/bluebird/wiki/Optimization-killers#3-managing-arguments
+
+16. WebAssembly
+https://webassembly.org/
+
+18. Stack Overflow
+https://www.freecodecamp.org/news/quick-intro-to-recursion/
+https://www.freecodecamp.org/news/understanding-the-javascript-call-stack-861e41ae61d4/#:~:text=A%20stack%20overflow%20occurs%20when,before%20throwing%20a%20stack%20error
+
+19. Garbage Collection
+https://javascript.info/garbage-collection
+
+20. Memory Leaks
+https://developers.soundcloud.com/blog/garbage-collection-in-redux-applications
+https://developer.mozilla.org/en-US/docs/Web/API/setInterval
+
+23. Javascript Runtime
+http://latentflip.com/loupe/?code=ZnVuY3Rpb24gcHJpbnRIZWxsbygpIHsNCiAgICBjb25zb2xlLmxvZygnSGVsbG8gZnJvbSBiYXonKTsNCn0NCg0KZnVuY3Rpb24gYmF6KCkgew0KICAgIHNldFRpbWVvdXQocHJpbnRIZWxsbywgMzAwMCk7DQp9DQoNCmZ1bmN0aW9uIGJhcigpIHsNCiAgICBiYXooKTsNCn0NCg0KZnVuY3Rpb24gZm9vKCkgew0KICAgIGJhcigpOw0KfQ0KDQpmb28oKTs%3D!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D
+https://developer.mozilla.org/en-US/docs/Web/API
+
+24. Node.js
+https://nodejs.org/en/
+
+33. Hoisting
+https://developer.mozilla.org/en-US/docs/Glossary/Hoisting
+https://www.w3schools.com/js/js_hoisting.asp
+https://www.freecodecamp.org/news/what-is-hoisting-in-javascript/
+
+38. arguments Keyword
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments
+
+46. IIFE
+https://developer.mozilla.org/en-US/docs/Glossary/IIFE
+
+47. this Keyword
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
+>>'this' is the object that the function is a property of<<
+
+48. Exercise: Dynamic Scope vs Lexical Scope
+In javascript our -lexical scope- (avilable data + variables where the function was defined), determines our available variables. Not where the function is called -dynamic scope-. 'this' Keyword is dynamically scoped.
+
+49. call(), apply(), bind()
+call() & apply() are useful for borrowing methods from an object
+bind() is useful for to call functions later on with a certain context or certain 'this' keyword
+
+50. Exercise: call(), apply()
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+
+57. Javascript Types
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
+
+62. structuredClone()
+https://web.dev/structured-clone/
+
+63. Type Coercion
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness
+https://dorey.github.io/JavaScript-Equality-Table/
+https://262.ecma-international.org/5.1/#sec-11.9.3
+
+84. Prototypal Inheritance
+Syntactic sugar:
+https://www.freecodecamp.org/news/js-diabetes-and-understanding-syntax-sugar-5de249ee9ebc/
+https://en.wikipedia.org/wiki/Syntactic_sugar
+
+86. Prototypal Inheritance 3
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty
+
+88. Prototypal Inheritance 5
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create
+
+94. Exercise: Imposter Syndrome
+https://www.freecodecamp.org/news/what-is-imposter-syndrome-and-how-do-you-overcome-it/
+
+95. Section Overview
+https://en.wikipedia.org/wiki/Procedural_programming
+https://en.wikipedia.org/wiki/History_of_programming_languages#:~:text=The%20first%20high%2Dlevel%20language,by%20John%20Backus%20at%20IBM.
+
+97. OOP Introduction
+https://s3.amazonaws.com/lowres.cartoonstock.com/children-text_output_object-computer_language-parent-parenting-computing-mmon109_low.jpg
+
+106. Inheritance
+https://www.w3schools.com/js/js_class_inheritance.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super
+
+109. Public vs Private
+https://github.com/tc39/proposal-class-fields
+
+114. Section Overview
+https://en.wikipedia.org/wiki/Lisp_(programming_language)
+https://en.wikipedia.org/wiki/Lambda_calculus#:~:text=Lambda%20calculus%20(also%20written%20as,to%20simulate%20any%20Turing%20machine.
+https://en.wikipedia.org/wiki/Haskell
+https://en.wikipedia.org/wiki/Scala_(programming_language)
+https://en.wikipedia.org/wiki/Clojure
+https://en.wikipedia.org/wiki/Redux_(JavaScript_library)
+https://imgs.xkcd.com/comics/haskell.png
+
+118. Pure Functions 2
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+https://javascript.plainenglish.io/referential-transparency-in-javascript-and-typescript-or-why-to-prefer-const-over-let-9fe241b0a7f3
+
+121. Imperative vs Declarative
+https://www.taniarascia.com/simple-jquery-examples-with-code-and-demos/
+
+122. Immutability
+https://commons.wikimedia.org/wiki/File:Purely_functional_tree_after.svg
+https://medium.com/@dtinth/immutable-js-persistent-data-structures-and-structural-sharing-6d163fbd73d2
+
+126. Quick Note: Upcoming Videos
+Master the Coding Interview: Data Structures + Algorithms.
+https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/?kw=Master+the+Coding+Interview%3A+Data+Structures+%2B+Algorithms&src=sac
+
+129. Compose and Pipe
+https://ramdajs.com/docs/#compose
+https://ramdajs.com/docs/#pipe
+
+132. Solution: Amazon
+https://www.w3schools.com/jsref/jsref_reduce.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
+https://www.w3schools.blog/object-assign-javascript-js
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
+
+138. Quick Note: Upcoming Videos
+https://jsonplaceholder.typicode.com/
+https://jsonplaceholder.cypress.io/
+
+140. Promises
+https://javascript.info/promise-chaining
+https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+https://www.w3schools.com/jsref/api_fetch.asp
+
+141. ES8 - Async Await
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
+https://www.w3schools.com/js/js_async.asp
+https://javascript.info/async-await
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch
+https://www.w3schools.com/js/js_errors.asp
+
+142. ES9(ES2018)
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+https://www.w3schools.com/react/react_es6_spread.asp
+
+143. ES9(ES2018) - Async
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/finally
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for-await...of
+
+144. Job Queue
+https://miro.medium.com/v2/resize:fit:4800/1*iHhUyO4DliDwa6x_cO5E3A.gif
+
+145. Parallel, Sequence and Race
+https://medium.com/codex/promises-sequential-parallel-race-1ac18ff09f60
+
+146. ES2020: allSettled()
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled
+https://www.w3schools.io/javascript/es11-promise-allsettled/
+
+148. Threads, Concurrency and Parallelism
+https://www.freecodecamp.org/news/scaling-node-js-applications-8492bd8afadc
+https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
+https://www.internalpointers.com/post/gentle-introduction-multithreading
+
+149. Section Overview
+https://www.w3schools.com/js/js_modules.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
+
+153. CommonJS, AMD, UMD
+https://en.wikipedia.org/wiki/CommonJS#:~:text=CommonJS%20is%20a%20project%20with,outside%20of%20the%20web%20browser.
+https://www.npmjs.com/
+https://browserify.org/
+
+https://en.wikipedia.org/wiki/Asynchronous_module_definition
+https://requirejs.org/
+
+http://jargon.js.org/_glossary/UMD.md
+
+154. ES6 Modules
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export
+
+157. Errors In JavaScript
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/Error
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError
+
+158. Try Catch
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch
+https://www.w3schools.com/jsref/jsref_try_catch.asp
+
+170. Quick Note: Upcoming Videos
+https://zerotomastery.io/courses/learn-data-structures-and-algorithms/
+
+172. What Is A Data Structure?
+https://en.wikipedia.org/wiki/List_of_data_structures
+
+173. How Computers Store Data
+https://youtu.be/fpnE6UAfbtU
+https://statmath.wu.ac.at/courses/data-analysis/itdtHTML/node55.html
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/pow
+
+174. Data Structures In Different Languages
+https://medium.com/omarelgabrys-blog/data-structures-language-support-5f70f8312e84
+
+175. Operations On Data Structures
+https://www.bigocheatsheet.com/
+
+181. Solution Reverse A String
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join
+
+183. Solution: Merge Sorted Arrays
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while
+
+184. Arrays Review
+https://coggle.it/diagram/W5E5tqYlrXvFJPsq/t/master-the-interview-click-here-for-course-link
+https://www.bigocheatsheet.com/
+
+186. Hash Function
+https://www.miraclesalad.com/webtools/md5.php
+
+187. Hash Collisions
+https://www.cs.usfca.edu/~galles/visualization/OpenHash.html
+https://en.wikipedia.org/wiki/Hash_table
+
+188. Hash Tables In Different Languages
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map
+https://javascript.info/map-set
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set
+
+190. Solution: Implement A Hash Table
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder
+https://www.freecodecamp.org/news/javascript-modulo-operator-how-to-use-the-modulus-in-js/
+
+192. Hash Tables vs Arrays
+https://www.bigocheatsheet.com/
+https://coggle.it/diagram/W5E5tqYlrXvFJPsq/t/master-the-interview-click-here-for-course-link
+
+196. Quick Note: Upcoming Videos
+https://zerotomastery.io/courses/coding-bootcamp/
+
+200. Control Flow
+https://www.javascript.com/learn/conditionals
+https://www.w3schools.com/js/js_comparisons.asp
+
+202. Functions
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return
+https://www.w3schools.com/js/js_function_parameters.asp
+
+203. Data Structures: Arrays
+https://www.w3schools.com/jsref/jsref_obj_array.asp
+
+207. Loops
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while
+https://www.w3schools.com/jsref/jsref_dowhile.asp
+https://caniuse.com/
+
+209. JavaScript Keywords
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar
+
+211. Scope
+https://www.w3schools.com/js/js_scope.asp
+
+212. Advanced Control Flow
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch
+https://www.freecodecamp.org/news/javascript-switch-case-js-switch-statement-example/
+https://www.w3schools.com/js/js_switch.asp
+
+213. ES5 and ES6
+https://en.wikipedia.org/wiki/ECMAScript#:~:text=ECMAScript%20(%2F%CB%88%C9%9Bkm,in%20the%20document%20ECMA%2D262.
+https://babeljs.io/
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol
+
+214. Advanced Functions
+https://deterministic.js.org/
+
+215. Advanced Arrays
+https://www.w3schools.com/jsref/jsref_foreach.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+https://www.w3schools.com/jsref/jsref_map.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+https://www.w3schools.com/jsref/jsref_filter.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+https://www.w3schools.com/jsref/jsref_reduce.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
+
+217. ES7
+https://www.w3schools.com/jsref/jsref_includes_array.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
+https://www.w3schools.com/howto/howto_js_exponentiation.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Exponentiation
+
+218. ES8
+https://www.w3schools.com/jsref/jsref_string_padstart.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart
+https://www.w3schools.com/jsref/jsref_string_padend.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padEnd
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Object/values
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
+https://www.w3schools.com/jsref/jsref_replace.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace
+
+220. ES10 (ES2019)
+https://www.w3schools.com/jsref/jsref_array_flat.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat
+https://www.w3schools.com/jsref/jsref_array_flatmap.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap
+https://www.w3schools.com/jsref/jsref_string_trim_start.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trimStart
+https://www.w3schools.com/jsref/jsref_string_trim_end.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trimEnd
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/fromEntries
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch
+https://www.w3schools.com/jsref/jsref_infinity.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity
+https://riptutorial.com/javascript/example/2337/infinity-and--infinity
+
+221. Advanced Loops
+https://www.w3schools.com/js/js_loop_forof.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of
+https://www.w3schools.com/js/js_loop_forin.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in
+
+222. ES2020 Part 1
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MAX_SAFE_INTEGER
+https://en.wikipedia.org/wiki/Double-precision_floating-point_format
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining
+https://stackoverflow.com/questions/307179/what-is-javascripts-highest-integer-value-that-a-number-can-go-to-without-losin
+
+225. ES2020: globalThis
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/globalThis
+
+226. ES2021
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll
+
+227. Debugging
+https://www.w3schools.com/js/js_debugging.asp
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/debugger
+
+228. Modules
+https://browserify.org/
+https://webpack.js.org/
+https://en.wikipedia.org/wiki/Webpack
+https://zerotomastery.io/cheatsheets/javascript-cheatsheet-the-advanced-concepts/
